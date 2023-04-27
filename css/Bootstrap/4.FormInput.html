@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <form style="width:30rem;">
+        <h3>Bilgilerinizi girin</h3>
+        <hr/>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+        
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" />
+            <small class="form-text text-danger">Please provide a e-mail</small>
+
+          
+        <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+        </div>
+
+
+
+        <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" name="accept" id="accept" class="form-check-input">
+                        <label for="accept" class="form-check-text">Okudum onaylıyorum</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="language">Diller</label>
+                    <select class="form-control" id="language">
+                        <option>İngilizce</option>
+                        <option selected>Türkçe</option>
+                    </select>
+                </div> 
+            </div>
+        </div>
+        <button type="submit" class="btn-primary btn-block">Send</button>
+
+
+
+        </form>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
